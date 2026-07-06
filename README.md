@@ -80,18 +80,23 @@ problem and evaluates on a single airport or a small dataset. This project inste
 ## Repository Structure
 
 ```
-├── notebooks/
-│   ├── 01_data_ingestion_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_logistic_regression.ipynb
-│   ├── 05_random_forest.ipynb
-│   ├── 06_gradient_boosted_trees.ipynb
-│   └── 07_stacking_ensemble.ipynb
-├── report/
-│   └── flight_delay_prediction_report.pdf
+├── data/
 ├── figures/
-├── requirements.txt
+│   ├── gbt/
+│   ├── lr/
+│   ├── rf/
+│   └── stacking/
+├── notebooks/
+│   ├── 01-preprocessing.py
+│   ├── 02-data-cleaning.ipynb
+│   ├── 03-EDA.ipynb
+│   ├── 04-features.ipynb
+│   ├── 05-logistic_reg.ipynb
+│   ├── 06-RF.ipynb
+│   ├── 07-GBT.ipynb
+│   └── 08-stacking.ipynb
+├── report/
+│   └── report.pdf
 └── README.md
 ```
 
@@ -99,7 +104,7 @@ problem and evaluates on a single airport or a small dataset. This project inste
 
 The full write-up — including detailed EDA, feature importance analysis, confusion
 matrices, threshold sensitivity analysis, and discussion of limitations — is available in
-(report.pdf).
+[`report/report.pdf`](report/report.pdf).
 
 ## Authors
 
