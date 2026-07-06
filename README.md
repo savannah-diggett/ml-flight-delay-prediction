@@ -99,7 +99,7 @@ problem and evaluates on a single airport or a small dataset. This project inste
 
 The full write-up — including detailed EDA, feature importance analysis, confusion
 matrices, threshold sensitivity analysis, and discussion of limitations — is available in
-[`report/flight_delay_prediction_report.pdf`](report/flight_delay_prediction_report.pdf).
+(report.pdf).
 
 ## Authors
 
