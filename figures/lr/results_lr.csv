@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f05,auc,train_time
+LR Layer 1 (unweighted),0.8199,0.8524,0.8199397619793478,0.8457,0.65,13.0s
+LR Layer 1 (weighted),0.6162,0.7679,0.6161694251809872,0.7318,0.6525,7.7s
+LR Layer 2,0.5688,0.5681,0.5687700005586191,0.5683,0.5899,3.9s
